@@ -1,7 +1,7 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
-name: .NET
+name: Run .NET NuGet Package
 
 on:
   push:
@@ -11,9 +11,10 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: ./src/EducationTrail_CORE
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
