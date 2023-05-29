@@ -15,7 +15,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj",
-      "projectName": "EducationTrail_CORE",
+      "projectName": "EducationTrail_Core",
       "projectPath": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj",
       "packagesPath": "C:\\Users\\wes\\.nuget\\packages\\",
       "outputPath": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\obj\\",
@@ -24,6 +24,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\NuGet.Config",
         "C:\\Users\\wes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -32,9 +33,8 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.pkg.github.com/ntohq/index.json": {}
       },
       "frameworks": {
         "net6.0": {
