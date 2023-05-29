@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-	<PackageId>EducationTrail_Core</PackageId>
-	<Version>1.0.0</Version>
+	<PackageId>EducationTrailCore</PackageId>
+	<Version>0.0.1</Version>
 	<Authors>wesdevpro</Authors>
-	<Company>ntohq</Company>
-	<PackageDescription>PACKAGE_DESCRIPTION</PackageDescription>
-	<RepositoryUrl>https://github.com/OWNER/REPOSITORY</RepositoryUrl>
+	<Company>ntohq developers</Company>
+	<PackageDescription>A NuGet package used for developing The Education Trail™ that contains all of The Education Trail™'s Core and Core's abstractions.</PackageDescription>
+	<RepositoryUrl>https://github.com/ntohq/EducationTrail_CORE</RepositoryUrl>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 

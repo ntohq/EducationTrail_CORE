@@ -5,10 +5,10 @@
   },
   "projects": {
     "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj": {
-      "version": "1.0.0",
+      "version": "0.0.1",
       "restore": {
         "projectUniqueName": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj",
-        "projectName": "EducationTrail_Core",
+        "projectName": "EducationTrailCore",
         "projectPath": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj",
         "packagesPath": "C:\\Users\\wes\\.nuget\\packages\\",
         "outputPath": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\obj\\",
