@@ -5,8 +5,6 @@ on:
     branches:
       - main
 jobs:
-  check-version:
-    runs-on: windows-latest
   publish:
     runs-on: windows-latest
     steps:
