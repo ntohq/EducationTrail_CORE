@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EducationTrail_CORE
 {
-    internal struct Course
+    internal interface IUniversity
     {
     }
 }

@@ -6114,23 +6114,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wes\\.nuget\\packages\\": {},
+    "C:\\Users\\wesdevpro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.Tests.csproj",
+      "projectUniqueName": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.Tests.csproj",
       "projectName": "EducationTrail_CORE.Tests",
-      "projectPath": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.Tests.csproj",
-      "packagesPath": "C:\\Users\\wes\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\obj\\",
+      "projectPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.Tests.csproj",
+      "packagesPath": "C:\\Users\\wesdevpro\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\NuGet.Config",
+        "C:\\Users\\wesdevpro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6138,9 +6139,8 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.pkg.github.com/ntohq/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -6195,7 +6195,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

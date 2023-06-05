@@ -1,0 +1,19 @@
+name: Push NuGet Package
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  check-version:
+    runs-on: windows-latest
+  publish:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Pack
+        run: dotnet pack src/EducationTrail_CORE -c Release
+      - name: Prep packages
+        run: dotnet nuget add source --username wesdevpro --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/ntohq/index.json"
+      - name: Publish to GitHub packages 
+        run: dotnet nuget push src/EducationTrail_CORE/bin/Release/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }}  --source "github"
