@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EducationTrail_CORE
+namespace EducationTrail_CORE.Interfaces
 {
     internal interface IUniversity
     {
