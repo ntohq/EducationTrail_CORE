@@ -6120,9 +6120,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.Tests.csproj",
-      "projectName": "EducationTrail_CORE.Tests",
-      "projectPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.Tests.csproj",
+      "projectUniqueName": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.DBTests.csproj",
+      "projectName": "EducationTrail_CORE.DBTests",
+      "projectPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.DBTests.csproj",
       "packagesPath": "C:\\Users\\wesdevpro\\.nuget\\packages\\",
       "outputPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\obj\\",
       "projectStyle": "PackageReference",
@@ -6199,5 +6199,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -3,7 +3,7 @@
     /// <summary>
     /// Record <c>Student</c> models.
     /// </summary>
-    public abstract record Student
+    public record Student
     {
         public ObjectId Id { get; set; }
         public string FullName { get; set; } = string.Empty;

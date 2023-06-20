@@ -1,12 +1,10 @@
-﻿using EducationTrail_CORE.Abstracts;
-
-namespace EducationTrail_CORE.MockServer
+﻿namespace EducationTrail_CORE.DriverTest
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Hello, World!");
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ECoCMePfw1jRCC0GWsmLj3Qjo5mt160UYzdEuPHdAVXHY8nHHI4PPaSnVEbebcOlgLF+Pggeiog8VFYm9+PVAA==",
+  "dgSpecHash": "krNjiDqBDKv/Lj4x92jmyrcE31p6OugWsNi2Z6qmqSiOWeZmF7GKqplGrktFCqFtVPxqLKgZqmV9DrQWyWRO0A==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.Tests.csproj",
+  "projectFilePath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\EducationTrail_CORE.DBTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wesdevpro\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\wesdevpro\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
@@ -97,5 +97,12 @@
     "C:\\Users\\wesdevpro\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\wesdevpro\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
