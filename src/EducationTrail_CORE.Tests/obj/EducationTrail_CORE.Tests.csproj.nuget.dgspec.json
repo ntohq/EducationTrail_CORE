@@ -26,7 +26,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://nuget.pkg.github.com/ntohq/index.json": {}
         },
         "frameworks": {
