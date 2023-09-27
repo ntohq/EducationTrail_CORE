@@ -22,7 +22,7 @@ jobs:
           run: dotnet nuget add source --username ntohq --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/ntohq/index.json"
         - name: Build and Pack NuGet Package
           run: dotnet pack --configuration Release --output ./dist
-        - name: Move to Dist Directory
-          run: cd dist
         - name: Publish Package to GitHub Packages
-          run: dotnet nuget push *.nupkg --source "github" --api-key ${{ secrets.GITHUB_TOKEN }}
+          run: |
+            cd dist
+            dotnet nuget push *.nupkg --source "github" --api-key ${{ secrets.GITHUB_TOKEN }}
