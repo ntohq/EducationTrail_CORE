@@ -1,37 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj": {}
+    "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_Core\\EducationTrail_Core.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj": {
-      "version": "0.0.1",
+    "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_Core\\EducationTrail_Core.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj",
-        "projectName": "EducationTrail_CORE",
-        "projectPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\EducationTrail_CORE.csproj",
-        "packagesPath": "C:\\Users\\wesdevpro\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_CORE\\obj\\",
+        "projectUniqueName": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_Core\\EducationTrail_Core.csproj",
+        "projectName": "EducationTrail_Core",
+        "projectPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_Core\\EducationTrail_Core.csproj",
+        "packagesPath": "C:\\Users\\wes\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\EducationTrail_CORE\\src\\EducationTrail_Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wesdevpro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\wes\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/ntohq/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -60,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

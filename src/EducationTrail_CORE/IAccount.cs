@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace EducationTrail_Core;
 
-namespace EducationTrail_CORE
+public interface IAccount : IDisposable
 {
-    internal interface IAccount
-    {
-
-    }
+    
+    void Dispose() {}
 }

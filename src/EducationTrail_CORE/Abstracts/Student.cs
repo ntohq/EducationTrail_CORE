@@ -1,8 +1,6 @@
-﻿namespace EducationTrail_CORE.Abstracts
+namespace EducationTrail_Core.Abstracts;
+
+public class Student
 {
-    public class Student
-    {
-        public string firstName { get; set; } = string.Empty;
-        public string lastName { get; set; } = string.Empty;
-    }
+    
 }
