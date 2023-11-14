@@ -10,7 +10,7 @@ public class Program
     public static IHostBuilder CreateHostBuilder(string[] args)
     {
         return Host.CreateDefaultBuilder(args).ConfigureServices((_, servies) => {
-            servies.AddHostedService<DBTestingService>().AddSingleton<MongoClient>("mongodb+srv://DBTesting:!tAiv5HppzKL#Pp@ep-main.3figl.mongodb.net/?retryWrites=true&w=majority");
+            servies.AddHostedService<DBTestingService>().AddSingleton<MongoClient>();
         }).ConfigureLogging((_, logging) => {
             logging.AddConfiguration(_.Configuration.GetSection("Logging"));
             logging.AddConsole();
