@@ -7,7 +7,6 @@ public class StudentService : IStudent
 {   
     private ConnectionService _client;
     private ILogger _logger;
-    private IConf
 
     StudentService(ConnectionService client, ILogger logger)
     {
@@ -17,6 +16,5 @@ public class StudentService : IStudent
 
     public Student GetStudent(string name)
     {
-        _client.
     }
 }
